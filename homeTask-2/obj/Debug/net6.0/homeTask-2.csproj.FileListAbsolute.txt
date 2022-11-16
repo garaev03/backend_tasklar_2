@@ -1,0 +1,15 @@
+C:\Users\samir\Desktop\codeAcademy\backend\backend_tasklar_2\homeTask-2\obj\Debug\net6.0\homeTask-2.csproj.AssemblyReference.cache
+C:\Users\samir\Desktop\codeAcademy\backend\backend_tasklar_2\homeTask-2\obj\Debug\net6.0\homeTask-2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\samir\Desktop\codeAcademy\backend\backend_tasklar_2\homeTask-2\obj\Debug\net6.0\homeTask-2.AssemblyInfoInputs.cache
+C:\Users\samir\Desktop\codeAcademy\backend\backend_tasklar_2\homeTask-2\obj\Debug\net6.0\homeTask-2.AssemblyInfo.cs
+C:\Users\samir\Desktop\codeAcademy\backend\backend_tasklar_2\homeTask-2\obj\Debug\net6.0\homeTask-2.csproj.CoreCompileInputs.cache
+C:\Users\samir\Desktop\codeAcademy\backend\backend_tasklar_2\homeTask-2\bin\Debug\net6.0\homeTask-2.exe
+C:\Users\samir\Desktop\codeAcademy\backend\backend_tasklar_2\homeTask-2\bin\Debug\net6.0\homeTask-2.deps.json
+C:\Users\samir\Desktop\codeAcademy\backend\backend_tasklar_2\homeTask-2\bin\Debug\net6.0\homeTask-2.runtimeconfig.json
+C:\Users\samir\Desktop\codeAcademy\backend\backend_tasklar_2\homeTask-2\bin\Debug\net6.0\homeTask-2.dll
+C:\Users\samir\Desktop\codeAcademy\backend\backend_tasklar_2\homeTask-2\bin\Debug\net6.0\homeTask-2.pdb
+C:\Users\samir\Desktop\codeAcademy\backend\backend_tasklar_2\homeTask-2\obj\Debug\net6.0\homeTask-2.dll
+C:\Users\samir\Desktop\codeAcademy\backend\backend_tasklar_2\homeTask-2\obj\Debug\net6.0\refint\homeTask-2.dll
+C:\Users\samir\Desktop\codeAcademy\backend\backend_tasklar_2\homeTask-2\obj\Debug\net6.0\homeTask-2.pdb
+C:\Users\samir\Desktop\codeAcademy\backend\backend_tasklar_2\homeTask-2\obj\Debug\net6.0\homeTask-2.genruntimeconfig.cache
+C:\Users\samir\Desktop\codeAcademy\backend\backend_tasklar_2\homeTask-2\obj\Debug\net6.0\ref\homeTask-2.dll
