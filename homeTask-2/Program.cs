@@ -23,25 +23,49 @@
 //equal(num, arr);
 
 
-static void calculator(double num1,double num2,string operation)
+static void calculator(double num1,string operation,double num2)
 {
 	double result = 0;
-	if (operation == "+")
-		result = num1 + num2;
-	else if (operation == "-")
-		result = num1 - num2;
-	else if (operation == "*")
-		result = num1 * num2;
-	else if (operation == "/")
-		result = num1 / num2;
-	else
+	double sum(double num1,double num2)
 	{
-		Console.WriteLine("Please choose the correct operation!");
+		result = num1 + num2;
+		return result;	
+	}
+    double product(double num1, double num2)
+    {
+        result = num1 * num2;
+        return result;
+    }
+    double divide(double num1, double num2)
+    {
+        result = num1 / num2;
+        return result;
+    }
+    double sub(double num1, double num2)
+    {
+        result = num1 - num2;
+        return result;
+    }
+
+    if (operation == "+")
+		sum(num1, num2);
+	else if (operation == "-")
+        sub(num1, num2);
+    else if (operation == "*")
+        product(num1, num2);
+    else if (operation == "/")
+        divide(num1, num2);
+    else
+	{
+		Console.WriteLine("Please choose the correct operator!");
 		return;
 	}
 	Console.WriteLine("The result is: "+result);
 }
+
 double num1 = Convert.ToDouble(Console.ReadLine());
-double num2 = Convert.ToDouble(Console.ReadLine());
 string operation = Console.ReadLine();
-calculator(num1,num2,operation);
+double num2 = Convert.ToDouble(Console.ReadLine());
+
+
+calculator(num1,operation,num2);
