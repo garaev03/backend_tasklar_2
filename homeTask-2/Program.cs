@@ -23,49 +23,63 @@
 //equal(num, arr);
 
 
-static void calculator(double num1,string operation,double num2)
+static void calculator()
 {
-	double result = 0;
-	double sum(double num1,double num2)
-	{
-		result = num1 + num2;
-		return result;	
-	}
-    double product(double num1, double num2)
+    double result = 0;
+    Console.Write("First Number: ");
+    double num1 = Convert.ToDouble(Console.ReadLine());
+    result=num1;
+    while (true)
     {
-        result = num1 * num2;
-        return result;
-    }
-    double divide(double num1, double num2)
-    {
-        result = num1 / num2;
-        return result;
-    }
-    double sub(double num1, double num2)
-    {
-        result = num1 - num2;
-        return result;
-    }
+        Console.Write("Choose the operator: ");
+        string operation = Console.ReadLine();
 
-    if (operation == "+")
-		sum(num1, num2);
-	else if (operation == "-")
-        sub(num1, num2);
-    else if (operation == "*")
-        product(num1, num2);
-    else if (operation == "/")
-        divide(num1, num2);
-    else
-	{
-		Console.WriteLine("Please choose the correct operator!");
-		return;
-	}
-	Console.WriteLine("The result is: "+result);
+        if (operation == "=")
+        {
+            Console.WriteLine("The result is: " + result);
+            return;
+        }
+        Console.Write("Add Number: ");
+        double addedNum = Convert.ToDouble(Console.ReadLine());
+
+        double sum(double num1, double num2)
+        {
+            result = result + num2;
+            return result;
+        }
+        double product(double num1, double num2)
+        {
+            result = result * num2;
+            return result;
+        }
+        double divide(double num1, double num2)
+        {
+            result = result / num2;
+            return result;
+        }
+        double sub(double num1, double num2)
+        {
+            result = result - num2;
+            return result;
+        }
+
+        if (operation == "+")
+            sum(num1, addedNum);
+        else if (operation == "-")
+            sub(num1, addedNum);
+        else if (operation == "*")
+            product(num1, addedNum);
+        else if (operation == "/")
+            divide(num1, addedNum);
+        else
+        {
+            Console.WriteLine("Please choose the correct operator!");
+        }
+        Console.WriteLine("To finish the operation press '=' !");
+        
+    }
 }
 
-double num1 = Convert.ToDouble(Console.ReadLine());
-string operation = Console.ReadLine();
-double num2 = Convert.ToDouble(Console.ReadLine());
 
 
-calculator(num1,operation,num2);
+calculator();
